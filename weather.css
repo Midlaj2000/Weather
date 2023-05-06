@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+
+.weatherApp{
+    background: url(simon-berger-FFLGD4o149E-unsplash.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+.location{
+    text-align: right;
+    padding: 50px 150px 0px 0px;
+    
+}
+.location h3, .location h5{
+    margin: 0;
+
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+    margin-top: 40px;
+}
+.temp_information{
+    font-size: 60px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    
+}
+.search input{
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+}
+.search button{
+    border: 0;
+    background-color: black;
+    color: white;
+    width: 100px;
+    padding: 0px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
